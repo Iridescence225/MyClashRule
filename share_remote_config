@@ -1,19 +1,19 @@
 [custom]
 
 
-ruleset=`DOMAIN-KEYWORD,`ip,`手动选择
-ruleset=`PROCESS-NAME-REGEX,`twitter,`STYGG
-ruleset=`PROCESS-NAME-REGEX,`outlook,`STYGG
-ruleset=`PROCESS-NAME-REGEX,`spotify,`STYGG
-ruleset=`PROCESS-NAME-REGEX,`mb,`Emby
-ruleset=`PROCESS-NAME-REGEX,`gram,`Telegram
-ruleset=`GEOSITE,`youtube,`STYGG
-ruleset=`GEOSITE,`github,`STYGG
-ruleset=DIRECT,GEOIP,lan
-ruleset=DIRECT,GEOIP,CN
-ruleset=`Google,`https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Google/Google.yaml
-ruleset=`AI,`https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Clash/Rule/AI.yaml
-ruleset=`MATCH,`FinalMatch
+ruleset= DOMAIN-KEYWORD,ip,手动选择
+ruleset= PROCESS-NAME-REGEX,twitter,STYGG
+ruleset= PROCESS-NAME-REGEX,outlook,STYGG
+ruleset= PROCESS-NAME-REGEX,spotify,STYGG
+ruleset= PROCESS-NAME-REGEX,mb,Emby
+ruleset= PROCESS-NAME-REGEX,gram,Telegram
+ruleset= GEOSITE,youtube,STYGG
+ruleset= GEOSITE,github,STYGG
+ruleset= DIRECT,GEOIP,lan
+ruleset= DIRECT,GEOIP,CN
+ruleset= Google,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Google/Google.yaml
+ruleset= AI,https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Clash/Rule/AI.yaml
+ruleset= MATCH,FinalMatch
 
 
 custom_proxy_group=手动切换`select`icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Kuai.png`.*
