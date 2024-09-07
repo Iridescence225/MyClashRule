@@ -1,1 +1,35 @@
+[custom]
 
+
+ruleset=DOMAIN-KEYWORD,ip,手动选择
+ruleset=PROCESS-NAME-REGEX,twitter,STYGG
+ruleset=PROCESS-NAME-REGEX,outlook,STYGG
+ruleset=PROCESS-NAME-REGEX,spotify,STYGG
+ruleset=PROCESS-NAME-REGEX,mb,Emby
+ruleset=PROCESS-NAME-REGEX,gram,Telegram
+ruleset=GEOSITE,youtube,STYGG
+ruleset=GEOSITE,github,STYGG
+ruleset=GEOIP,[]lan,DIRECT
+ruleset=GEOIP,[]CN,DIRECT
+ruleset=Google,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Google/Google.yaml
+ruleset=AI,https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Clash/Rule/AI.yaml
+ruleset=MATCH,FinalMatch
+
+
+custom_proxy_group=手动切换`select`icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Kuai.png`.*
+custom_proxy_group=Telegram`select`(新加坡|坡|狮城|SG|Singapore)
+custom_proxy_group=FinalMatch`select`.*
+custom_proxy_group=STYGG`select`[]SG`[]HK`[]JP`[]US`[]TW
+custom_proxy_group=Emby`select`.*
+custom_proxy_group=AI`select`(美|美国|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|United States|(?<![a-zA-Z])US(?![a-zA-Z])|(?<![a-zA-Z])USA(?![a-zA-Z])|(?<![a-zA-Z])USD(?![a-zA-Z]))
+custom_proxy_group=SG`select`(新加坡|坡|狮城|SG|Singapore)
+custom_proxy_group=HK`select`(港|HK|Hong Kong)
+custom_proxy_group=JP`select`(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan)
+custom_proxy_group=US`select`(美|美国|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|United States|(?<![a-zA-Z])US(?![a-zA-Z])|(?<![a-zA-Z])USA(?![a-zA-Z])|(?<![a-zA-Z])USD(?![a-zA-Z]))
+custom_proxy_group=TW`select`(台|新北|彰化|TW|Taiwan)
+
+
+enable_rule_generator=true
+overwrite_original_rules=true
+
+clash_rule_base=https://raw.githubusercontent.com/Iridescence225/MyClashRule/main/base.yaml
