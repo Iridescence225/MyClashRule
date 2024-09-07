@@ -1,6 +1,6 @@
 [custom]
 
-
+ruleset=🚀 手动选择,https://raw.githubusercontent.com/Iridescence225/MyClashRule/main/select.list
 ruleset=🎵 STYGG,https://raw.githubusercontent.com/Iridescence225/MyClashRule/main/STYGG.list
 ruleset=📲 Telegram,https://raw.githubusercontent.com/Iridescence225/MyClashRule/main/Telegram.list
 ruleset=📺 Emby,https://raw.githubusercontent.com/Iridescence225/MyClashRule/main/Emby.list
@@ -12,7 +12,7 @@ ruleset=DIRECT,[]GEOIP,lan
 
 
 
-custom_proxy_group=🚀 手动切换`select`.*
+custom_proxy_group=🚀 手动选择`select`.*
 custom_proxy_group=📲 Telegram`select`(新加坡|坡|狮城|SG|Singapore)
 custom_proxy_group=🐟 FinalMatch`select`.*
 custom_proxy_group=🎵 STYGG`select`[]SG`[]HK`[]JP`[]US`[]TW
