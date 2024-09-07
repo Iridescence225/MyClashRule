@@ -12,7 +12,7 @@ ruleset=DIRECT,[]GEOIP,lan
 
 
 
-custom_proxy_group=手动切换`select`icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Kuai.png`.*
+custom_proxy_group=手动切换`select`.*`icon:https://raw.githubusercontent.com/Orz-3/mini/master/Color/Kuai.png
 custom_proxy_group=Telegram`select`(新加坡|坡|狮城|SG|Singapore)
 custom_proxy_group=FinalMatch`select`.*
 custom_proxy_group=STYGG`select`[]SG`[]HK`[]JP`[]US`[]TW
