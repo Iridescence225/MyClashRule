@@ -1,92 +1,48 @@
-port: 7890
-socks-port: 7891
-mixed-port: 7892
-redir-port: 7893
-tproxy-port: 7894
-
-unified-delay: true
-geodata-mode: false
-geodata-loader: standard
-geo-auto-update: true
-geo-update-interval: 24
+mixed-port: 7893
 tcp-concurrent: true
-find-process-mode: strict
-global-client-fingerprint: chrome
-
 allow-lan: true
-mode: rule
+ipv6: false
 log-level: info
-ipv6: true
-udp: true
+unified-delay: true
+global-client-fingerprint: chrome
+find-process-mode: strict
 
-external-controller: 0.0.0.0:9090
-# external-ui: ui
-# external-ui-url: 'https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip'
-
+geodata-mode: true
 geox-url:
-  # geoip: 'https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/geoip.dat'
-  # geosite: 'https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/geosite.dat'
-  mmdb: 'https://gitlab.com/Masaiki/GeoIP2-CN/-/raw/release/Country.mmdb'
-  asn: 'https://gitlab.com/Loon0x00/loon_data/-/raw/main/geo/GeoLite2-ASN.mmdb'
+  geoip: "https://mirror.ghproxy.com/https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geoip-lite.dat"
+  geosite: "https://mirror.ghproxy.com/https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geosite.dat"
+  mmdb: "https://mirror.ghproxy.com/https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/country-lite.mmdb"
+  asn: "https://mirror.ghproxy.com/https://github.com/xishang0128/geoip/releases/download/latest/GeoLite2-ASN.mmdb"
 
 profile:
-  store-selected: true
-  store-fake-ip: true
+  store-selected: true 
+  store-fake-ip: true  
 
 sniffer:
   enable: true
-  force-dns-mapping: true
-  parse-pure-ip: true
-  override-destination: true
   sniff:
     HTTP:
       ports: [80, 8080-8880]
       override-destination: true
     TLS:
-      # Google FCM 服务器端口 5228
-      ports: [443, 5228, 8443]
+      ports: [443, 8443]
     QUIC:
-      # Google FCM 服务器端口 5228
-      ports: [443, 5228, 8443]
-  force-domain:
-    - +.v2ex.com
-    # Google FCM 服务器域名强制嗅探
-    - alt?-mtalk.google.com
-    - mtalk.google.com
-    - dl.google.com
-    - dl.l.google.com
-
-  skip-domain:
-    - Mijia Cloud
+      ports: [443, 8443]
 
 tun:
   enable: true
-  stack: system
-  dns-hijack:
-    - any:53
-  auto-route: true
-  auto-detect-interface: true
-
+  stack: mixed
+  dns-hijack: [any:53]
+        
 dns:
   enable: true
-  listen: 0.0.0.0:1053
-  ipv6: true
+  ipv6: false
   enhanced-mode: fake-ip
-  fake-ip-range: 28.0.0.1/8
-  fake-ip-filter:
-    - "*"
-    - +.lan
-    - 'alt?-mtalk.google.com'
-    - 'mtalk.google.com'
-    - 'dl.google.com'
-    - 'dl.l.google.com'
-  default-nameserver:
-    - 223.5.5.5
-    - 223.6.6.6
- # 配置查询域名使用的 DNS 服务器
+  listen: :1053
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter: ['*', '+.lan', '+.local', '+.direct', '+.msftconnecttest.com', '+.msftncsi.com']
+  default-nameserver: [system]
+  nameserver: [223.5.5.5, 119.29.29.29, 180.184.1.1]
   nameserver-policy:
-    "geosite:category-ads-all": rcode://success
-    "geosite:gfw": ['https://1.1.1.2/dns-query#h3=true', 'https://1.0.0.2/dns-query#h3=true', 'https://[2606:4700:4700::64]/dns-query#h3=true', 'https://[2606:4700:4700::6400]/dns-query#h3=true']
-    # 包含 Google FCM 和 DL 服务器域名解析
-    "geosite:google": ['8.8.8.8', '8.8.4.4', 'https://[2001:4860:4860::6464]/dns-query#h3=true']
-    "geosite:microsoft@cn,apple-cn,category-games@cn,cn,private": ['https://dns.alidns.com/dns-query#h3=true', 'https://doh.pub/dns-query']
+    'geosite:cn': system
+    'geosite:gfw,geolocation-!cn': [quic://223.5.5.5, quic://223.6.6.6, https://1.12.12.12/dns-query, https://120.53.53.53/dns-query]
