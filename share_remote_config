@@ -1,6 +1,5 @@
 [custom]
 
-ruleset=REJECT,[]IP-CIDR,95.161.76.100/31,no-resolve
 ruleset=🚀 手动切换,https://raw.githubusercontent.com/Iridescence225/MyClashRule/main/select.list
 ruleset=📺 Emby,https://raw.githubusercontent.com/Iridescence225/MyClashRule/main/Emby.list
 ruleset=🇸🇬 新加坡,[]PROCESS-NAME-REGEX,spotify
