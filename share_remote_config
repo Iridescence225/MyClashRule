@@ -1,37 +1,39 @@
 [custom]
 
 ruleset=DIRECT,[]IP-CIDR,95.161.76.100/31
-ruleset=🚀 手动切换,https://raw.githubusercontent.com/Iridescence225/MyClashRule/main/select.list
-ruleset=📺 Emby,https://raw.githubusercontent.com/Iridescence225/MyClashRule/main/Emby.list
-ruleset=🇸🇬 新加坡,[]PROCESS-NAME-REGEX,spotify
-ruleset=🇸🇬 新加坡,[]GEOSITE,youtube
-ruleset=🇭🇰 香港,[]PROCESS-NAME-REGEX,twitter
-ruleset=🇭🇰 香港,[]GEOSITE,onedrive
-ruleset=🇭🇰 香港,[]GEOSITE,github
-ruleset=🇭🇰 香港,[]GEOSITE,microsoft
-ruleset=📲 电报信息,https://raw.githubusercontent.com/Repcz/Tool/X/Clash/Rules/Telegram.list
-ruleset=🇭🇰 香港,https://raw.githubusercontent.com/Repcz/Tool/X/Clash/Rules/Steam.list
-ruleset=🇭🇰 香港,https://raw.githubusercontent.com/Repcz/Tool/X/Clash/Rules/Epic.list
-ruleset=🇸🇬 新加坡,https://raw.githubusercontent.com/Repcz/Tool/X/Clash/Rules/Google.list
-ruleset=🇺🇲 美国,https://raw.githubusercontent.com/Repcz/Tool/X/Clash/Rules/Apple.list
-ruleset=🇺🇲 美国,https://raw.githubusercontent.com/Repcz/Tool/X/Clash/Rules/AI.list
+ruleset=手动切换,https://raw.githubusercontent.com/Iridescence225/MyClashRule/main/select.list
+ruleset=Emby,https://raw.githubusercontent.com/Iridescence225/MyClashRule/main/Emby.list
+ruleset=新加坡,[]PROCESS-NAME-REGEX,spotify
+ruleset=新加坡,[]GEOSITE,youtube
+ruleset=香港,[]PROCESS-NAME-REGEX,twitter
+ruleset=测速,[]PROCESS-NAME-REGEX,zwanoo
+ruleset=香港,[]GEOSITE,onedrive
+ruleset=香港,[]GEOSITE,github
+ruleset=香港,[]GEOSITE,microsoft
+ruleset=电报信息,https://raw.githubusercontent.com/Repcz/Tool/X/Clash/Rules/Telegram.list
+ruleset=香港,https://raw.githubusercontent.com/Repcz/Tool/X/Clash/Rules/Steam.list
+ruleset=香港,https://raw.githubusercontent.com/Repcz/Tool/X/Clash/Rules/Epic.list
+ruleset=新加坡,https://raw.githubusercontent.com/Repcz/Tool/X/Clash/Rules/Google.list
+ruleset=美国,https://raw.githubusercontent.com/Repcz/Tool/X/Clash/Rules/Apple.list
+ruleset=美国,https://raw.githubusercontent.com/Repcz/Tool/X/Clash/Rules/AI.list
 ruleset=DIRECT,https://raw.githubusercontent.com/Iridescence225/MyClashRule/refs/heads/main/DIRECT.list
 ruleset=REJECT,https://raw.githubusercontent.com/Repcz/Tool/X/Clash/Rules/Reject.list
-ruleset=🐟 兜底分流,[]MATCH
+ruleset=兜底分流,[]MATCH
 ruleset=DIRECT,[]GEOIP,CN
 ruleset=DIRECT,[]GEOIP,lan
 
 
 
-custom_proxy_group=🚀 手动切换`select`.*
-custom_proxy_group=📲 电报信息`select`(新加坡|坡|狮城|SG|Singapore)
-custom_proxy_group=🐟 兜底分流`select`.*
-custom_proxy_group=📺 Emby`select`.*
-custom_proxy_group=🇸🇬 新加坡`select`(新加坡|坡|狮城|SG|Singapore)
-custom_proxy_group=🇭🇰 香港`select`(港|HK|Hong Kong)
-custom_proxy_group=🇯🇵 日本`select`(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan)
-custom_proxy_group=🇺🇲 美国`select`(美|美国|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|United States|(?<![a-zA-Z])US(?![a-zA-Z])|(?<![a-zA-Z])USA(?![a-zA-Z])|(?<![a-zA-Z])USD(?![a-zA-Z]))
-custom_proxy_group=🇨🇳 台湾`select`(台|新北|彰化|TW|Taiwan)
+custom_proxy_group=手动切换`select`.*
+custom_proxy_group=电报信息`select`(新加坡|坡|狮城|SG|Singapore)
+custom_proxy_group=兜底分流`select`.*
+custom_proxy_group=Emby`select`.*
+custom_proxy_group=测速`select`.*
+custom_proxy_group=新加坡`select`(新加坡|坡|狮城|SG|Singapore)
+custom_proxy_group=香港`select`(港|HK|Hong Kong)
+custom_proxy_group=日本`select`(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan)
+custom_proxy_group=美国`select`(美|美国|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|United States|(?<![a-zA-Z])US(?![a-zA-Z])|(?<![a-zA-Z])USA(?![a-zA-Z])|(?<![a-zA-Z])USD(?![a-zA-Z]))
+custom_proxy_group=台湾`select`(台|新北|彰化|TW|Taiwan)
 
 
 enable_rule_generator=true
