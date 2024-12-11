@@ -1,6 +1,6 @@
 [custom]
 
-ruleset=DIRECT,[]IP-CIDR,95.161.76.100/31
+ruleset=电报信息,[]IN-PORT,2325
 ruleset=手动切换,https://raw.githubusercontent.com/Iridescence225/MyClashRule/main/select.list
 ruleset=Emby,https://raw.githubusercontent.com/Iridescence225/MyClashRule/main/Emby.list
 ruleset=新加坡,[]PROCESS-NAME-REGEX,spotify
@@ -10,7 +10,6 @@ ruleset=测速,[]PROCESS-NAME-REGEX,zwanoo
 ruleset=香港,[]GEOSITE,onedrive
 ruleset=香港,[]GEOSITE,github
 ruleset=香港,[]GEOSITE,microsoft
-ruleset=电报信息,https://raw.githubusercontent.com/Repcz/Tool/X/Clash/Rules/Telegram.list
 ruleset=香港,https://raw.githubusercontent.com/Repcz/Tool/X/Clash/Rules/Steam.list
 ruleset=香港,https://raw.githubusercontent.com/Repcz/Tool/X/Clash/Rules/Epic.list
 ruleset=新加坡,https://raw.githubusercontent.com/Repcz/Tool/X/Clash/Rules/Google.list
