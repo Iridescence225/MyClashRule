@@ -1,15 +1,15 @@
 [custom]
 
-ruleset=电报信息,[]IN-PORT,2325
-ruleset=手动切换,https://raw.githubusercontent.com/Iridescence225/MyClashRule/main/select.list
-ruleset=Emby,https://raw.githubusercontent.com/Iridescence225/MyClashRule/main/Emby.list
-ruleset=新加坡,[]PROCESS-NAME-REGEX,spotify
-ruleset=新加坡,[]GEOSITE,youtube
-ruleset=香港,[]PROCESS-NAME-REGEX,twitter
-ruleset=测速,[]PROCESS-NAME-REGEX,zwanoo
+ruleset=电报消息,[]IN-TYPE,SOCKS
 ruleset=香港,[]GEOSITE,onedrive
 ruleset=香港,[]GEOSITE,github
 ruleset=香港,[]GEOSITE,microsoft
+ruleset=手动切换,https://raw.githubusercontent.com/Iridescence225/MyClashRule/main/select.list
+ruleset=Emby,https://raw.githubusercontent.com/Iridescence225/MyClashRule/main/Emby.list
+ruleset=新加坡,https://raw.githubusercontent.com/Repcz/Tool/X/Clash/Rules/YouTube.list
+ruleset=新加坡,https://raw.githubusercontent.com/Repcz/Tool/X/Clash/Rules/Spotify.list
+ruleset=香港,https://raw.githubusercontent.com/Repcz/Tool/X/Clash/Rules/Twitter.list
+ruleset=测速,https://ruleset.skk.moe/Clash/domainset/speedtest.txt
 ruleset=香港,https://raw.githubusercontent.com/Repcz/Tool/X/Clash/Rules/Steam.list
 ruleset=香港,https://raw.githubusercontent.com/Repcz/Tool/X/Clash/Rules/Epic.list
 ruleset=新加坡,https://raw.githubusercontent.com/Repcz/Tool/X/Clash/Rules/Google.list
@@ -24,7 +24,7 @@ ruleset=DIRECT,[]GEOIP,lan
 
 
 custom_proxy_group=手动切换`select`.*
-custom_proxy_group=电报信息`select`(新加坡|坡|狮城|SG|Singapore)
+custom_proxy_group=电报消息`select`(新加坡|坡|狮城|SG|Singapore)
 custom_proxy_group=兜底分流`select`.*
 custom_proxy_group=Emby`select`.*
 custom_proxy_group=测速`select`.*
