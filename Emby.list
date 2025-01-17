@@ -1,5 +1,4 @@
 DOMAIN,pdatv.cc
-DOMAIN,pilipili.club
 DOMAIN,cavps.eu.org
 DOMAIN,tanhuatv.site
 DOMAIN,embyplus.org
@@ -22,4 +21,5 @@ DOMAIN-SUFFIX,mius.uk
 DOMAIN-SUFFIX,sfcj.org
 DOMAIN-KEYWORD,emby
 DOMAIN-KEYWORD,Emby
+DOMAIN-KEYWORD,pili
 IP-CIDR,50.114.55.29/32,no-resolve
