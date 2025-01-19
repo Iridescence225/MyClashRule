@@ -1,17 +1,16 @@
 DOMAIN,pdatv.cc
-DOMAIN,cavps.eu.org
+DOMAIN,pilipili.club
 DOMAIN,tanhuatv.site
 DOMAIN,yhemby.top
 DOMAIN-SUFFIX,cn2gias.uk
 DOMAIN-SUFFIX,nanflix.net
-DOMAIN-SUFFIX,pilifun.top
 DOMAIN-SUFFIX,charontv.com
 DOMAIN-SUFFIX,bangumi.ca
-DOMAIN-SUFFIX,20120714.xyz
 DOMAIN-SUFFIX,bgp.yt
 DOMAIN-SUFFIX,itsmyduty.top
 DOMAIN-SUFFIX,lilyya.xyz
 DOMAIN-SUFFIX,emby.wtf
+DOMAIN-SUFFIX,term.wtf
 DOMAIN-SUFFIX,xmsl.org
 DOMAIN-SUFFIX,alphatvapp.top
 DOMAIN-SUFFIX,9191001.xyz
@@ -19,6 +18,5 @@ DOMAIN-SUFFIX,mius.uk
 DOMAIN-SUFFIX,sfcj.org
 DOMAIN-KEYWORD,emby
 DOMAIN-KEYWORD,Emby
-DOMAIN-KEYWORD,pili
 IP-CIDR,154.9.233.198/32,no-resolve
 IP-CIDR,50.114.55.29/32,no-resolve
