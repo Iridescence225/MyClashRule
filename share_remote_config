@@ -1,6 +1,8 @@
 [custom]
 
-ruleset=电报消息,[]IN-TYPE,SOCKS
+ruleset=TG-SG,https://github.com/Iridescence225/MyClashRule/raw/main/TG-SG.list
+ruleset=TG-US,https://github.com/Iridescence225/MyClashRule/raw/main/TG-US.list
+ruleset=TG-EU,https://github.com/Iridescence225/MyClashRule/raw/main/TG-EU.list
 ruleset=香港,[]GEOSITE,onedrive
 ruleset=香港,[]GEOSITE,github
 ruleset=香港,[]GEOSITE,microsoft
@@ -25,7 +27,9 @@ ruleset=DIRECT,[]GEOIP,lan
 
 
 custom_proxy_group=手动切换`select`.*
-custom_proxy_group=电报消息`select`(新加坡|坡|狮城|SG|Singapore)
+custom_proxy_group=TG-SG`select`(新加坡|坡|狮城|SG|Singapore)
+custom_proxy_group=TG-US`select`(🇺🇸|美国|洛杉矶|圣何塞|US|United States)
+custom_proxy_group=TG-EU`select`(🇩🇪|🇳🇱|德国|荷兰|EU|(\b(DE|Germany|NL|Holland|Netherlands)
 custom_proxy_group=兜底分流`select`.*
 custom_proxy_group=Emby`select`.*
 custom_proxy_group=测速`select`.*
