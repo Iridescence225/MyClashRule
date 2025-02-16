@@ -38,6 +38,7 @@ DOMAIN,emby-mica-us-v1.mius.uk
 DOMAIN,emby-micax-ca-v2.mius.uk
 
 # 垃圾影音
+DOMAIN,cfloacl.emby.moe
 DOMAIN-SUFFIX,xmsl.org
 
 # 守候pre
