@@ -1,62 +1,62 @@
-# > pandatv
+# pandatv
 DOMAIN,pdatv.cc
 
-# > 鹅服
+# 鹅服
 DOMAIN-SUFFIX,eu.org
 IP-CIDR,154.29.145.151/32,no-resolve
 IP-CIDR,156.229.165.55/32,no-resolve
 IP-CIDR,154.40.32.135/32,no-resolve
 
-# > 非越
+# 非越
 DOMAIN,ju.sfcj.org
 DOMAIN,cf.sfcj.org
 
-# > 墨白
+# 墨白
 DOMAIN-SUFFIX,mobaiemby.site
 
-# > 天南
+# 天南
 DOMAIN-SUFFIX,nanflix.net
 
-# > july
+# july
 DOMAIN,july-us.vfing.de
 
-# > lily
+# lily
 DOMAIN,cf.lilyemby.my
 DOMAIN-SUFFIX,lilyyaya.top
 
-# > zox
+# zox
 DOMAIN-SUFFIX,zox.show
 
-# > 探花
+# 探花
 DOMAIN,tanhuatv.site
 
-# > 阿尔法
+# 阿尔法
 DOMAIN-SUFFIX,alphatvapp.top
 
-# > 牢大
+# 牢大
 DOMAIN,emby-mica-us-v1.mius.uk
 DOMAIN,emby-micax-ca-v2.mius.uk
 
-# > 垃圾影音
+# 垃圾影音
 DOMAIN-SUFFIX,xmsl.org
 
-# > 守候pre
+# 守候pre
 DOMAIN,pe.cn2gias.uk
 
-# > 二次元emby
+# 二次元emby
 DOMAIN,media.nijigem.by
 DOMAIN,nx.cdn.bgp.yt
 DOMAIN,us-w.cdn.bgp.yt
 
-# > 终点站
+# 终点站
 DOMAIN-SUFFIX,emby.wtf
 DOMAIN-SUFFIX,term.wtf
 
-# > pilipili
+# pilipili
 DOMAIN-SUFFIX,pilipiliultra.com
 
-# > 卡戎
+# 卡戎
 DOMAIN-SUFFIX,charontv.com
 
-# > Nya
+# Nya
 DOMAIN-SUFFIX,bangumi.ca
