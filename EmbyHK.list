@@ -2,10 +2,6 @@
 DOMAIN,eggtartemby.itsmyduty.top
 DOMAIN,hk-slimemby.itsmyduty.top
 
-# july
-DOMAIN,july.vfing.de
-DOMAIN,july-hk.vfing.de
-
 # 鹅服
 IP-CIDR,156.224.77.145/32,no-resolve
 DOMAIN,emby-e-hk.pppp.us.kg
