@@ -9,9 +9,6 @@ IP-CIDR,156.229.165.55/32,no-resolve
 DOMAIN,ju.sfcj.org
 DOMAIN,cf.sfcj.org
 
-# 墨白
-DOMAIN-SUFFIX,mobaiemby.site
-
 # 天南
 DOMAIN-SUFFIX,nanflix.net
 
