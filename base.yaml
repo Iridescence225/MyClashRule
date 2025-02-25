@@ -8,7 +8,7 @@ unified-delay: true
 global-client-fingerprint: chrome
 keep-alive-interval: 15
 keep-alive-idle: 15
-disable-keep-alive: false
+disable-keep-alive: true
 
 geodata-mode: true
 geox-url:
@@ -17,20 +17,20 @@ geox-url:
   mmdb: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb"
   asn: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Loyalsoldier/geoip/release/GeoLite2-ASN.mmdb"
 
-profile: { store-selected: true, store-fake-ip: false }
+profile: { store-selected: true， store-fake-ip: false }
 sniffer:
   enable: true
   force-dns-mapping: true
-  parse-pure-ip: true
+  parse-pure-ip: false
   override-destination: true
   sniff: 
     HTTP: 
-      ports: [80, 8080-8880]
+      ports: [80， 8080-8880]
       override-destination: true
     TLS:
-      ports: [443, 5228, 8443]
+      ports: [443， 5228， 8443]
     QUIC:
-      ports: [443, 5228, 8443]
+      ports: [443， 5228， 8443]
   force-domain:
     - +.v2ex.com
     - 'alt1-mtalk.google.com'
@@ -46,6 +46,12 @@ sniffer:
     - 'dl.l.google.com'
 
 dns:
+  enable: true
+  ipv6: false
+  prefer-h3: true
+  enhanced-mode: fake-ip
+  listen: :1053
+  fake-ip-range: 198.18.0.1/16
   fake-ip-filter:
     - 'alt1-mtalk.google.com'
     - 'alt2-mtalk.google.com'
@@ -58,11 +64,34 @@ dns:
     - 'mtalk.google.com'
     - 'dl.google.com'
     - 'dl.l.google.com'
+    - '*' 
+    - '+.lan' 
+    - '+.local'
+    - '+.direct'
+    - '+.msftconnecttest.com'
+    - '+.msftncsi.com'
   nameserver-policy:
-    "geosite:gfw": ['https://1.1.1.2/dns-query#h3=true', 'https://1.0.0.2/dns-query#h3=true', 'https://[2606:4700:4700::64]/dns-query#h3=true', 'https://[2606:4700:4700::6400]/dns-query#h3=true']
-    "geosite:google": ['8.8.8.8', '8.8.4.4', 'https://[2001:4860:4860::6464]/dns-query#h3=true']
-    "geosite:microsoft@cn,apple-cn,category-games@cn,cn,private": ['https://dns.alidns.com/dns-query#h3=true', 'https://doh.pub/dns-query']
+    "geosite:gfw": ['https://1.1.1.2/dns-query#h3=true'， 'https://1.0.0.2/dns-query#h3=true'， 'https://[2606:4700:4700::64]/dns-query#h3=true'， 'https://[2606:4700:4700::6400]/dns-query#h3=true']
+    "geosite:google": ['8.8.8.8'， '8.8.4.4'， 'https://[2001:4860:4860::6464]/dns-query#h3=true']
+    "geosite:microsoft": ['https://dns.alidns.com/dns-query#h3=true'， 'https://doh.pub/dns-query']
+  nameserver:
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+  fallback:
+    - tls://8.8.4.4
+    - tls://1.1.1.1
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+    geosite:
+      - gfw
+    ipcidr:
+      - 240.0.0.0/4
+    domain:
+      - '+.google.com'
+      - '+.facebook.com'
+      - '+.youtube.com'
 tun:
   enable: true
-  stack: mixed
+  stack: system
   dns-hijack: [any:53]
