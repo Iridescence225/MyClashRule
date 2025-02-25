@@ -1,15 +1,29 @@
 [custom]
 
+ruleset=手动切换,[]DOMAIN-KEYWORD,ping0
+ruleset=手动切换,[]DOMAIN-KEYWORD,ipwho
+ruleset=手动切换,[]DOMAIN-SUFFIX,xn--ngstr-lra8j.com
+ruleset=手动切换,[]DOMAIN-SUFFIX,services.googleapis.cn
 ruleset=TG-SG,https://github.com/Iridescence225/MyClashRule/raw/main/TG-SG.list
 ruleset=TG-US,https://github.com/Iridescence225/MyClashRule/raw/main/TG-US.list
 ruleset=TG-EU,https://github.com/Iridescence225/MyClashRule/raw/main/TG-EU.list
-ruleset=香港,[]GEOSITE,onedrive
-ruleset=香港,[]GEOSITE,github
-ruleset=香港,[]GEOSITE,microsoft
-ruleset=手动切换,https://raw.githubusercontent.com/Iridescence225/MyClashRule/main/select.list
-ruleset=Emby,https://raw.githubusercontent.com/Iridescence225/MyClashRule/main/Emby.list
 ruleset=FCM,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GoogleFCM/GoogleFCM.list
-ruleset=新加坡,https://raw.githubusercontent.com/Repcz/Tool/X/Clash/Rules/YouTube.list
+ruleset=EmbyUS,https://github.com/Iridescence225/MyClashRule/raw/main/EmbyUS.list
+ruleset=EmbySG,https://github.com/Iridescence225/MyClashRule/raw/main/EmbySG.list
+ruleset=EmbyDE,https://github.com/Iridescence225/MyClashRule/raw/main/EmbyDE.list
+ruleset=EmbyJP,https://github.com/Iridescence225/MyClashRule/raw/main/EmbyJP.list
+ruleset=EmbyHK,https://github.com/Iridescence225/MyClashRule/raw/main/EmbyHK.list
+ruleset=EmbyKR,https://github.com/Iridescence225/MyClashRule/raw/main/EmbyKR.list
+ruleset=手动切换,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleCNProxyIP.list
+ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
+ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list
+ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
+ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaMedia.list
+ruleset=REJECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
+ruleset=REJECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list
+ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
+ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list
+ruleset=澳门,https://raw.githubusercontent.com/Repcz/Tool/X/Clash/Rules/YouTube.list
 ruleset=新加坡,https://raw.githubusercontent.com/Repcz/Tool/X/Clash/Rules/Spotify.list
 ruleset=香港,https://raw.githubusercontent.com/Repcz/Tool/X/Clash/Rules/Twitter.list
 ruleset=测速,https://raw.githubusercontent.com/Iridescence225/MyClashRule/main/Speedtest.list
@@ -20,25 +34,35 @@ ruleset=美国,https://raw.githubusercontent.com/Repcz/Tool/X/Clash/Rules/Apple.
 ruleset=美国,https://raw.githubusercontent.com/Repcz/Tool/X/Clash/Rules/AI.list
 ruleset=DIRECT,https://raw.githubusercontent.com/Iridescence225/MyClashRule/refs/heads/main/DIRECT.list
 ruleset=REJECT,https://raw.githubusercontent.com/Repcz/Tool/X/Clash/Rules/Reject.list
+ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleCNProxyIP.list
+ruleset=香港,[]GEOSITE,onedrive
+ruleset=香港,[]GEOSITE,github
+ruleset=香港,[]GEOSITE,microsoft
+ruleset=DIRECT,[]GEOIP,CN,no-resolve
+ruleset=DIRECT,[]GEOIP,private,no-resolve
 ruleset=兜底分流,[]MATCH
-ruleset=DIRECT,[]GEOIP,CN
-ruleset=DIRECT,[]GEOIP,lan
 
 
 
 custom_proxy_group=手动切换`select`.*
 custom_proxy_group=TG-SG`select`(新加坡|坡|狮城|SG|Singapore)
 custom_proxy_group=TG-US`select`(🇺🇸|美国|洛杉矶|圣何塞|US|United States)
-custom_proxy_group=TG-EU`select`(🇩🇪|🇳🇱|德国|荷兰|EU|新加坡|坡|狮城|SG|Singapore(\b(DE|Germany|NL|Holland|Netherlands)
+custom_proxy_group=TG-EU`select`(🇩🇪|🇳🇱|德国|荷兰|EU|(\b(DE|Germany|NL|Holland|Netherlands)
 custom_proxy_group=兜底分流`select`.*
-custom_proxy_group=Emby`select`.*
 custom_proxy_group=测速`select`.*
 custom_proxy_group=FCM`select`.*
 custom_proxy_group=新加坡`select`(新加坡|坡|狮城|SG|Singapore)
 custom_proxy_group=香港`select`(港|HK|Hong Kong)
-custom_proxy_group=日本`select`(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan)
-custom_proxy_group=美国`select`(美|美国|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|United States|(?<![a-zA-Z])US(?![a-zA-Z])|(?<![a-zA-Z])USA(?![a-zA-Z])|(?<![a-zA-Z])USD(?![a-zA-Z]))
-custom_proxy_group=台湾`select`(台|新北|彰化|TW|Taiwan)
+custom_proxy_group=日本`select`(日本|JP|Japan)
+custom_proxy_group=美国`select`(美|美国|United States|US|us)
+custom_proxy_group=台湾`select`(台|TW|Taiwan)
+custom_proxy_group=澳门`select`(澳门|MO|Oman)
+custom_proxy_group=EmbyUS`select`(美|美国|United States|US|us)
+custom_proxy_group=EmbyHK`select`(港|HK|Hong Kong)
+custom_proxy_group=EmbySG`select`(🇸🇬|新加坡|坡|狮城|SG|Singapore)
+custom_proxy_group=EmbyJP`select`(日本|JP|Japan)
+custom_proxy_group=EmbyKR`select`(🇰🇷|韩国|韩|首尔|KR|Korea)
+custom_proxy_group=EmbyDE`select`(🇩🇪|🇳🇱|德国|荷兰|DE|Germany)
 
 
 enable_rule_generator=true
