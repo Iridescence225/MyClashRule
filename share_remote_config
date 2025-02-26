@@ -38,8 +38,8 @@ ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ru
 ruleset=香港,[]GEOSITE,onedrive
 ruleset=香港,[]GEOSITE,github
 ruleset=香港,[]GEOSITE,microsoft
-ruleset=DIRECT,[]GEOIP,CN,no-resolve
-ruleset=DIRECT,[]GEOIP,private,no-resolve
+ruleset=DIRECT,[]GEOIP,CN
+ruleset=DIRECT,[]GEOIP,private
 ruleset=兜底分流,[]MATCH
 
 
