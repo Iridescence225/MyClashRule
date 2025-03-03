@@ -46,8 +46,8 @@ ruleset=兜底分流,[]MATCH
 
 custom_proxy_group=手动切换`select`.*
 custom_proxy_group=TG-SG`select`(新加坡|坡|狮城|SG|Singapore)
-custom_proxy_group=TG-US`select`(🇺🇸|美国|洛杉矶|圣何塞|US|United States)
-custom_proxy_group=TG-EU`select`(🇩🇪|🇳🇱|德国|荷兰|EU|(\b(DE|Germany|NL|Holland|Netherlands)
+custom_proxy_group=TG-US`select`(美国|洛杉矶|圣何塞|US|United States)
+custom_proxy_group=TG-EU`select`(德国|荷兰|EU|(\b(DE|Germany|NL|Holland|Netherlands)
 custom_proxy_group=兜底分流`select`.*
 custom_proxy_group=测速`select`.*
 custom_proxy_group=FCM`select`.*
@@ -59,10 +59,10 @@ custom_proxy_group=台湾`select`(台|TW|Taiwan)
 custom_proxy_group=澳门`select`(澳门|MO|Oman)
 custom_proxy_group=EmbyUS`select`(美|美国|United States|US|us)
 custom_proxy_group=EmbyHK`select`(港|HK|Hong Kong)
-custom_proxy_group=EmbySG`select`(🇸🇬|新加坡|坡|狮城|SG|Singapore)
+custom_proxy_group=EmbySG`select`(新加坡|坡|狮城|SG|Singapore)
 custom_proxy_group=EmbyJP`select`(日本|JP|Japan)
-custom_proxy_group=EmbyKR`select`(🇰🇷|韩国|韩|首尔|KR|Korea)
-custom_proxy_group=EmbyDE`select`(🇩🇪|🇳🇱|德国|荷兰|DE|Germany)
+custom_proxy_group=EmbyKR`select`(韩国|韩|首尔|KR|Korea)
+custom_proxy_group=EmbyDE`select`(德国|荷兰|DE|Germany)
 
 
 enable_rule_generator=true
