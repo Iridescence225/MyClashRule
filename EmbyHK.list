@@ -7,7 +7,7 @@ IP-CIDR,156.224.77.145/32,no-resolve
 DOMAIN,emby-e-hk.pppp.us.kg
 
 # lily
-DOMAIN,c.lilyemby.my
+DOMAIN,hk.lilyemby.my
 
 # 二次元
 DOMAIN,ct.cdn.bgp.yt
