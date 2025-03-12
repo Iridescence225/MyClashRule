@@ -2,8 +2,8 @@
 DOMAIN,jp-slimemby.itsmyduty.top
 
 # 鹅服
-DOMAIN,emby.pppp.us.kg
-DOMAIN,emby-e-jp.pppp.us.kg
+DOMAIN,e-jp.vfing.de
+DOMAIN,e-jp-2.vfing.de
 IP-CIDR,45.192.243.75/32,no-resolve
 IP-CIDR,156.231.113.41/32,no-resolve
 
