@@ -3,8 +3,9 @@ DOMAIN,eggtartemby.itsmyduty.top
 DOMAIN,hk-slimemby.itsmyduty.top
 
 # 鹅服
-IP-CIDR,156.224.77.145/32,no-resolve
-DOMAIN,emby-e-hk.pppp.us.kg
+DOMAIN,e-hk-1.vfing.de
+DOMAIN,e-hk-2.vfing.de
+DOMAIN,hinet.vfing.de
 
 # lily
 DOMAIN,hk.lilyemby.my
