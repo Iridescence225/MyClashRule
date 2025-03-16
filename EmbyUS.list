@@ -25,6 +25,9 @@ DOMAIN-SUFFIX,xmsl.org
 # 守候pre
 DOMAIN,pe.cn2gias.uk
 
+# 守候普通
+DOMAIN,emby.cn2gias.uk
+
 # 二次元emby
 DOMAIN,media.nijigem.by
 DOMAIN,default.cdn.bgp.yt
