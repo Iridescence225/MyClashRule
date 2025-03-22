@@ -3,7 +3,6 @@ DOMAIN,pdatv.cc
 
 # 鹅服
 DOMAIN-SUFFIX,eu.org
-IP-CIDR,156.229.165.55/32,no-resolve
 
 # 非越
 DOMAIN,ju.sfcj.org
