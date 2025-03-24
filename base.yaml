@@ -93,5 +93,5 @@ dns:
       - '+.youtube.com'
 tun:
   enable: true
-  stack: system
+  stack: mixed
   dns-hijack: [any:53]
