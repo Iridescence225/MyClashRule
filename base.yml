@@ -11,7 +11,6 @@ find-process-mode: strict
 geodata-mode: true
 
 profile: { store-selected: true, store-fake-ip: false }
-sniffer: { enable: true, sniff: { HTTP: { ports: [80], override-destination: true }, TLS: { ports: [443, 8443] }, QUIC: { ports: [443, 8443] } } }
 
 sniffer:
   enable: true
