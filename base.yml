@@ -1,12 +1,20 @@
-mixed-port: 7890
-allow-lan: true
-external-controller: 127.0.0.1:9090
-ipv6: true
+mixed-port: 7893
 tcp-concurrent: true
+allow-lan: true
+ipv6: false
+log-level: info
 unified-delay: true
 global-client-fingerprint: chrome
-keep-alive-interval: 15
+find-process-mode: strict
+
 geodata-mode: true
+geox-url:
+  geoip: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Loyalsoldier/geoip/release/geoip.dat"
+  geosite: "https://mirror.ghproxy.com/https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geosite.dat"
+  mmdb: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb"
+  asn: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Loyalsoldier/geoip/release/GeoLite2-ASN.mmdb"
+
+profile: { store-selected: true, store-fake-ip: false }
 sniffer:
   enable: true
   force-dns-mapping: true
@@ -32,13 +40,16 @@ sniffer:
     - alt8-mtalk.google.com
     - dl.google.com
     - dl.l.google.com
+tun:
+  enable: true
+  stack: mixed
+  dns-hijack: [any:53]
+        
 dns:
   enable: true
-  ipv6: true
-  default-nameserver: [223.5.5.5, 119.29.29.29]
+  ipv6: false
   enhanced-mode: fake-ip
+  listen: :1053
   fake-ip-range: 198.18.0.1/16
-  use-hosts: true
-  nameserver: [https://dns.alidns.com/dns-query, https://doh.pub/dns-query]
-  fallback: [https://dns.alidns.com/dns-query, https://doh.pub/dns-query]
-  fallback-filter: {geoip: true, ipcidr: [240.0.0.0/4, 0.0.0.0/32]}
+  fake-ip-filter: ['*', '+.lan', '+.local', '+.direct', '+.msftconnecttest.com', '+.msftncsi.com']
+  nameserver: [223.5.5.5, 119.29.29.29]
