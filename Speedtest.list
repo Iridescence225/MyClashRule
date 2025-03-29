@@ -13,3 +13,4 @@ DOMAIN-KEYWORD,speedtest
 DOMAIN-KEYWORD,speed 
 DOMAIN-SUFFIX,datapacket.com
 DOMAIN-SUFFIX,fdcservers.net
+PROCESS-NAME-REGEX,(?i)speedtest
