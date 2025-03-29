@@ -1,16 +1,23 @@
-mixed-port: 7893
-socks-port: 2325
-tcp-concurrent: true
+mixed-port: 7890
 allow-lan: true
-ipv6: false
-log-level: info
+external-controller: '127.0.0.1:9090'
+ipv6: true
+tcp-concurrent: true
 unified-delay: true
 global-client-fingerprint: chrome
-find-process-mode: strict
-
+keep-alive-interval: 15
 geodata-mode: true
 
-profile: { store-selected: true, store-fake-ip: false }
+dns:
+  enable: true
+  ipv6: true
+  default-nameserver: [223.5.5.5, 119.29.29.29]
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  use-hosts: true
+  nameserver: ['https://dns.alidns.com/dns-query', 'https://doh.pub/dns-query']
+  fallback: ['https://dns.alidns.com/dns-query', 'https://doh.pub/dns-query']
+  fallback-filter: { geoip: true, ipcidr: [240.0.0.0/4, 0.0.0.0/32] }
 
 sniffer:
   enable: true
@@ -37,15 +44,6 @@ sniffer:
     - 'alt8-mtalk.google.com'
     - 'dl.google.com'
     - 'dl.l.google.com'
-
-dns:
-  enable: true
-  ipv6: false
-  enhanced-mode: fake-ip
-  listen: :1053
-  fake-ip-range: 198.18.0.1/16
-  fake-ip-filter: ['*', '+.lan', '+.local', '+.direct', '+.msftconnecttest.com', '+.msftncsi.com']
-  nameserver: [223.5.5.5, 119.29.29.29]
 
   tun:
   enable: true
