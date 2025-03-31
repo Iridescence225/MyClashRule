@@ -14,3 +14,4 @@ DOMAIN-KEYWORD,speed
 DOMAIN-SUFFIX,datapacket.com
 DOMAIN-SUFFIX,fdcservers.net
 PROCESS-NAME-REGEX,(?i)speedtest
+DOMAIN,fl-us-ping.vultr.com
