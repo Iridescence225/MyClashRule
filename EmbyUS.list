@@ -1,9 +1,6 @@
 # pandatv
 DOMAIN,pdatv.cc
 
-# 鹅服
-DOMAIN-SUFFIX,eu.org
-
 # lily
 DOMAIN,cf.lilyemby.my
 
@@ -31,6 +28,8 @@ DOMAIN-SUFFIX,term.wtf
 
 # pilipili
 DOMAIN-SUFFIX,pilipiliultra.com
+DOMAIN,pili.994959.xyz
+DOMAIN,caddy.pilipili.me
 
 # 卡戎
 DOMAIN-SUFFIX,charontv.com
