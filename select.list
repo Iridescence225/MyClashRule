@@ -1,5 +1,6 @@
 DOMAIN-KEYWORD,ping0
-DOMAIN-KEYWORD,ipwho
+DOMAIN,ipwho.is
+DOMAIN-SUFFIX,ip.sb
 DOMAIN-SUFFIX,services.googleapis.cn
 DOMAIN-SUFFIX,play.googleapis.com
 DOMAIN,connectivitycheck.gstatic.com
