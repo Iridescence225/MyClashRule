@@ -1,6 +1,5 @@
 # PandaTV
-DOMAIN,pdatv.cc
-DOMAIN,d.pdatv.cc
+DOMAIN,pandtv.de
 
 # LL
 DOMAIN,eggtartemby.itsmyduty.top
@@ -11,6 +10,7 @@ DOMAIN,jp-slimemby.itsmyduty.top
 DOMAIN,hk.lilyemby.my
 DOMAIN,jp.lilyemby.my
 DOMAIN,cf.lilyemby.my
+DOMAIN,cdn.lilyemby.my
 
 # 结束乐队
 DOMAIN,kessoku-bando.biliblili.uk
