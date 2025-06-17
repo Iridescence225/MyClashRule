@@ -4,11 +4,8 @@ DOMAIN,pdatv.cc
 # lily
 DOMAIN,cf.lilyemby.my
 
-# 探花
-DOMAIN,tanhuatv.site
-
 # 垃圾影音
-DOMAIN,cfloacl.emby.moe
+DOMAIN,cflocal.xxlb.net
 DOMAIN-SUFFIX,xmsl.org
 
 # 守候pre
@@ -19,23 +16,17 @@ DOMAIN,emby.cn2gias.uk
 
 # 二次元emby
 DOMAIN,media.nijigem.by
-DOMAIN,default.cdn.bgp.yt
 DOMAIN,us-w.cdn.bgp.yt
-
-# 终点站
-DOMAIN-SUFFIX,emby.wtf
-DOMAIN-SUFFIX,term.wtf
 
 # pilipili
 DOMAIN-SUFFIX,pilipiliultra.com
-DOMAIN,pili.994959.xyz
-DOMAIN,caddy.pilipili.me
 
-# 卡戎
-DOMAIN-SUFFIX,charontv.com
+# 牢大
+DOMAIN,kessoku-bando.biliblili.uk
 
 # Nya
 DOMAIN-SUFFIX,bangumi.ca
 
 # 惊蛰
+DOMAIN,emby.jingzhe.pro
 DOMAIN,stream2.jingzhe.pro
