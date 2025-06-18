@@ -1,5 +1,6 @@
 # PandaTV
 DOMAIN,pandtv.de
+DOMAIN,jp1.line.pandtv.de
 
 # LL
 DOMAIN,eggtartemby.itsmyduty.top
@@ -43,8 +44,7 @@ DOMAIN-SUFFIX,term.wtf
 
 # pilipili
 DOMAIN-SUFFIX,pilipiliultra.com
-DOMAIN,pili.994959.xyz
-DOMAIN,caddy.pilipili.me
+
 
 # 卡戎
 DOMAIN-SUFFIX,charontv.com
