@@ -2,4 +2,4 @@ DOMAIN-SUFFIX,mcdn.bilivideo.com
 DOMAIN-SUFFIX,mcdn.bilivideo.cn
 DOMAIN-SUFFIX,szbdyd.com
 PROCESS-NAME-REGEX,(?i)SG
-PROCESS-NAME,SogouComMgr.exe
+PROCESS-NAME,wetype_server.exe
