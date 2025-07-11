@@ -1,11 +1,9 @@
-# 666OS规则直连
-DOMAIN-SUFFIX,imee.me
-
 DOMAIN-SUFFIX,yzkaola.com
 DOMAIN-SUFFIX,cqvip.com
 DOMAIN-SUFFIX,mumujiaoyu.com
 DOMAIN-SUFFIX,umeng.com
 PROCESS-NAME-REGEX,EasiNote.exe
+PROCESS-NAME,360SpeedTest.exe
 DOMAIN-SUFFIX,zhtuanjian.com
 DOMAIN-SUFFIX,zxls.com
 DOMAIN-SUFFIX,wylkyj.com
