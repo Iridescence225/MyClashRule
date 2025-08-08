@@ -10,6 +10,7 @@ DOMAIN-SUFFIX,xmsl.org
 
 # 守候pre
 DOMAIN,pe.cn2gias.uk
+DOMAIN,ptest.cn2gias.uk
 
 # 守候普通
 DOMAIN,emby.cn2gias.uk
