@@ -1,8 +1,8 @@
 DOMAIN-KEYWORD,ping0
-DOMAIN,ipwho.is
+DOMAIN-SUFFIX,ipwho.is
 DOMAIN-SUFFIX,ip.sb
-DOMAIN,ipinfo.io
-DOMAIN,ipapi.co
-DOMAIN,browserleaks.com
-DOMAIN,iplark.com
+DOMAIN-SUFFIX,ipinfo.io
+DOMAIN-SUFFIX,ipapi.co
+DOMAIN-SUFFIX,browserleaks.com
+DOMAIN-SUFFIX,iplark.com
 DOMAIN-SUFFIX,ipdata.co
