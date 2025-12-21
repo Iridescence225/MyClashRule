@@ -1,36 +1,10 @@
-# pandatv
-DOMAIN,pandtv.de
-
-# lily
-DOMAIN,cf.lilyemby.my
-DOMAIN,www.lilyemby.my
-
-# 垃圾影音
-DOMAIN,cflocal.xxlb.net
-DOMAIN-SUFFIX,xmsl.org
-
-# 守候pre
-DOMAIN,pe.cn2gias.uk
-DOMAIN,ptest.cn2gias.uk
-
-# 守候普通
-DOMAIN,emby.cn2gias.uk
-
-# 二次元emby
-DOMAIN,media.nijigem.by
-DOMAIN,us-w.cdn.bgp.yt
-DOMAIN,default.cdn.bgp.yt
-
-# pilipili
-DOMAIN-SUFFIX,pilipiliultra.com
-
-# 牢大
+# 结束乐队
 DOMAIN,kessoku-bando.biliblili.uk
 
-# Nya
-DOMAIN-SUFFIX,bangumi.ca
+# 垃圾影音
+DOMAIN,cfloacl.emby.moe
+DOMAIN-SUFFIX,xmsl.org
 
 # 惊蛰
-DOMAIN,emby.jingzhe.pro
 DOMAIN,stream2.jingzhe.pro
-
+DOMAIN,emby.jingzhe.pro
