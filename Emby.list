@@ -1,26 +1,13 @@
 # PandaTV
-DOMAIN,pandtv.de
-DOMAIN,jp1.line.pandtv.de
-
-# LL
-DOMAIN,eggtartemby.itsmyduty.top
-DOMAIN,hk-slimemby.itsmyduty.top
-DOMAIN,jp-slimemby.itsmyduty.top
+DOMAIN-SUFFIX,pandtv.de
+DOMAIN,v.pdtvs.de
 
 # lily
-DOMAIN,hk.lilyemby.my
-DOMAIN,jp.lilyemby.my
-DOMAIN,cf.lilyemby.my
-DOMAIN,cdn.lilyemby.my
+DOMAIN,www.lilyemby.my
+DOMAIN,www.lilyemby.com
 
 # 结束乐队
 DOMAIN,kessoku-bando.biliblili.uk
-
-# 飞跃银河
-DOMAIN,yhemby.top
-
-# 探花
-DOMAIN,tanhuatv.site
 
 # 垃圾影音
 DOMAIN,cfloacl.emby.moe
@@ -34,20 +21,10 @@ DOMAIN,emby.cn2gias.uk
 
 # 二次元emby
 DOMAIN,media.nijigem.by
-DOMAIN,default.cdn.bgp.yt
-DOMAIN,us-w.cdn.bgp.yt
-DOMAIN,ct.cdn.bgp.yt
 
-# 终点站
-DOMAIN-SUFFIX,emby.wtf
-DOMAIN-SUFFIX,term.wtf
 
 # pilipili
 DOMAIN-SUFFIX,pilipiliultra.com
-
-
-# 卡戎
-DOMAIN-SUFFIX,charontv.com
 
 # Nya
 DOMAIN-SUFFIX,bangumi.ca
@@ -56,5 +33,3 @@ DOMAIN-SUFFIX,bangumi.ca
 DOMAIN,stream2.jingzhe.pro
 DOMAIN,emby.jingzhe.pro
 
-# cherryporn
-DOMAIN,gongyi.cherry-pornemby.top
