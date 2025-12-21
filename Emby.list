@@ -6,13 +6,6 @@ DOMAIN,v.pdtvs.de
 DOMAIN,www.lilyemby.my
 DOMAIN,www.lilyemby.com
 
-# 结束乐队
-DOMAIN,kessoku-bando.biliblili.uk
-
-# 垃圾影音
-DOMAIN,cfloacl.emby.moe
-DOMAIN-SUFFIX,xmsl.org
-
 # 守候pre
 DOMAIN,pe.cn2gias.uk
 
@@ -22,14 +15,8 @@ DOMAIN,emby.cn2gias.uk
 # 二次元emby
 DOMAIN,media.nijigem.by
 
-
 # pilipili
 DOMAIN-SUFFIX,pilipiliultra.com
 
 # Nya
 DOMAIN-SUFFIX,bangumi.ca
-
-# 惊蛰
-DOMAIN,stream2.jingzhe.pro
-DOMAIN,emby.jingzhe.pro
-
