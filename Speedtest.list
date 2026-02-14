@@ -7,7 +7,6 @@ DOMAIN-KEYWORD,speed
 DOMAIN-KEYWORD,ovh
 DOMAIN-SUFFIX,datapacket.com
 DOMAIN-SUFFIX,fdcservers.net
-PROCESS-NAME-REGEX,(?i)speedtest
 DOMAIN-SUFFIX,hetzner.com
 DOMAIN,download.microsoft.com
 DOMAIN,repo.anaconda.com
