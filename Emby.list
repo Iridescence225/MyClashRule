@@ -1,7 +1,6 @@
 
 # lily
-DOMAIN,free.lilyemby.com
-DOMAIN,origin.lilyemby.cc
+DOMAIN-SUFFIX,lilyemby.com
 
 # 守候pre
 DOMAIN-SUFFIX,cn2gias.uk
